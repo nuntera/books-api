@@ -1,0 +1,75 @@
+/* Home Page Styling */
+.home-container {
+  margin-top: 50px;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.home-container p.lead {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.recent-activity h2 {
+  margin-bottom: 30px;
+}
+
+/* Recent Activity */
+.recent-activity-list {
+  margin-top: 20px;
+}
+
+/* Card Styling */
+.book-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-cover {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.book-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.user-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-info span {
+  font-size: 0.9rem;
+  color: #666;
+}
